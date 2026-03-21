@@ -1,5 +1,4 @@
 
-import React from 'react';
 import { ArrowUpDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -11,8 +10,6 @@ const SortButton = ({ onSort }: SortButtonProps) => {
   return (
     <Button
       onClick={onSort}
-      variant="outline"
-      size="sm"
       className="flex items-center gap-2 bg-white/90 backdrop-blur-sm 
         hover:bg-parknav-light-blue/10 
         hover:border-parknav-blue 

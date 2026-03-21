@@ -1,9 +1,9 @@
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import ParkingSpotCard from './ParkingSpotCard';
 import { ScrollArea } from '../ui/scroll-area';
 import SortButton from './SortButton';
-import { ParkingSpot } from '@/types';
+import type { ParkingSpot } from '@/types';
 
 interface ParkingSpotListProps {
   spots: ParkingSpot[];

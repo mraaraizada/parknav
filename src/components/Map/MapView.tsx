@@ -1,5 +1,5 @@
 
-import { ParkingSpot } from '@/types';
+import type { ParkingSpot } from '@/types';
 import { toast } from 'sonner';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MapPin, Car, ZoomIn, ZoomOut, Crosshair } from 'lucide-react';

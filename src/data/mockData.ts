@@ -1,5 +1,5 @@
 
-import { ParkingSpot, UserProfile } from '@/types';
+import type { ParkingSpot, UserProfile } from '@/types';
 
 export const delhiParkingSpots: ParkingSpot[] = [
   {
