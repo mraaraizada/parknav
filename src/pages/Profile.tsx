@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Link, useNavigate } from 'react-router-dom';
 import {
-  MapPin, Star, Car, CreditCard, Bell, Shield,
+  Car, CreditCard, Bell, Shield,
   ChevronRight, Edit3, LogOut, Award, ChevronLeft
 } from 'lucide-react';
 import BottomNav from '../components/Navigation/BottomNav';

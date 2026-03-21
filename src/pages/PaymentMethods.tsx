@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { CreditCard, Plus, Trash2, X, ChevronLeft, Check } from 'lucide-react';
+import { CreditCard, Plus, Trash2, X, ChevronLeft } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 interface PaymentMethod {
