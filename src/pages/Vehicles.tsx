@@ -18,7 +18,7 @@ export default function Vehicles() {
     { id: '2', name: 'Royal Enfield', number: 'DL 02 CD 5678', type: 'bike', color: 'Black' },
   ]);
   const [showAddModal, setShowAddModal] = useState(false);
-  const [newVehicle, setNewVehicle] = useState({ name: '', number: '', type: 'car' as const, color: '' });
+  const [newVehicle, setNewVehicle] = useState<{ name: string; number: string; type: 'car' | 'bike' | 'suv'; color: string }>({ name: '', number: '', type: 'car', color: '' });
 
   const addVehicle = () => {
     if (newVehicle.name && newVehicle.number) {

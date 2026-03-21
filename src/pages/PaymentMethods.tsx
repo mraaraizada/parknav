@@ -18,7 +18,7 @@ export default function PaymentMethods() {
     { id: '2', type: 'upi', name: 'UPI', details: 'rahul@paytm', isDefault: false },
   ]);
   const [showAddModal, setShowAddModal] = useState(false);
-  const [newMethod, setNewMethod] = useState({ type: 'card' as const, name: '', details: '' });
+  const [newMethod, setNewMethod] = useState<{ type: 'card' | 'upi'; name: string; details: string }>({ type: 'card', name: '', details: '' });
 
   const addMethod = () => {
     if (newMethod.name && newMethod.details) {
