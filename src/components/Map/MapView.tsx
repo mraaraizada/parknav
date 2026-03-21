@@ -152,7 +152,7 @@ const MapView = ({ onSpotClick, selectedSpot, userLocation, nearbySpots }: MapVi
 
       {/* Nearby Parking Spots with Random Placement */}
       <AnimatePresence>
-        {nearbySpots?.map((spot, index) => {
+        {nearbySpots?.map((spot) => {
           const angle = Math.random() * Math.PI * 2;
           const distance = 80 + Math.random() * 80; // Random distance between 80-160px
           const x = Math.cos(angle) * distance;
