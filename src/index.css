@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+* {
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #F8FAFC;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#root {
+  width: 100%;
+  min-height: 100svh;
+}
